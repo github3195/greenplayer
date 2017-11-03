@@ -1,0 +1,140 @@
+/* css reset
+--------------------------------------------------------------------------------*/ 
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+    box-sizing: border-box;
+    // -webkit-touch-callout:none;
+    // -webkit-user-select:none;
+    // -khtml-user-select:none;
+    // -moz-user-select:none;
+    // -ms-user-select:none;
+    // user-select:none;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    text-decoration: none;
+    background:transparent;
+}
+
+input:focus {
+    outline: 0;
+    border: 0;
+}
+
+/* 通用类
+--------------------------------------------------------------------------------*/
+._clearfix {
+    zoom: 1;
+}
+._clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+._ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+._abs {
+    position: absolute;
+}
+._rel {
+    position: relative;
+}
+._fixed {
+    position: fixed;
+}
+._block {
+    display: block;
+}
+._left {
+    float: left;
+}
+._right {
+    float: right;
+}
+._width20 {
+    width: 20%;
+}
+._width25 {
+    width: 25%;
+}
+._width33 {
+    width: 33.333333%;
+}
+._width50 {
+    width: 50%;
+}
+._width67 {
+    width: 66.666667%;
+}
+._width75 {
+    width: 75%;
+}
+._width100 {
+    width: 100%;
+}
+._txt-center {
+    text-align: center;
+}
+._txt-right {
+    text-align: right;
+}
+._flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+._flex-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+._border-radius50 {
+    border-radius: 50%;
+}
+._fullimg {
+    width: 100%;
+    height: 100%;
+}
